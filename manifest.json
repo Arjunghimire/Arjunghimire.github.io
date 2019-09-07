@@ -1,0 +1,15 @@
+{
+  "name": "Arjun Ghimire",
+  "short_name": "AG",
+  "theme_color": "#0068b7",
+  "background_color": "#0068b7",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "https://arjunghimire.github.io/",
+  "description": "Personal Website for Arjun Ghimire",
+  "orientation": "any",
+  "icons": [{
+    "src": "https://christine.website/static/img/avatar.png",
+    "sizes": "1024x1024"
+  }]
+}
