@@ -1,3 +1,12 @@
+var cached_urls = [
+  "/offline.html",
+  "/index.html",
+  "/css/bootstrap.min.css",
+  "/css/font-awesome.min.css",
+  "/css/style.css",
+  "/css/timeline.css"
+];
+
 self.addEventListener("install", function(event) {
   event.waitUntil(preLoad());
 });
@@ -6,7 +15,7 @@ var preLoad = function() {
   console.log("Installing web app");
   return caches.open("offline").then(function(cache) {
     console.log("caching index and important routes");
-    return cache.addAll(["/css", "/fonts", "/", "/images", "/js"]);
+    return cache.addAll(cached_urls);
   });
 };
 
