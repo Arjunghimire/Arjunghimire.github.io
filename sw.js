@@ -4,7 +4,10 @@ var cached_urls = [
   "/css/bootstrap.min.css",
   "/css/font-awesome.min.css",
   "/css/style.css",
-  "/css/timeline.css"
+  "/css/timeline.css",
+  "/images/",
+  "/js",
+  "/fonts"
 ];
 
 self.addEventListener("install", function(event) {
