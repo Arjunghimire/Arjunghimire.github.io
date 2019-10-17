@@ -23,7 +23,6 @@ var cached_urls = [
   "/js/SmoothScroll.min.js",
   "/js/timeline.js",
   "/images/favicon.ico",
-  "/images/2.png",
   "/images/banner.jpg",
   "/images/close.png",
   "/images/g2.jpg",
